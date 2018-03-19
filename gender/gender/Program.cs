@@ -16,6 +16,7 @@ namespace gender
             var vowels = new HashSet<char> { 'A', 'E', 'I', 'O', 'U', 'Y', 'a', 'e', 'i', 'o', 'u', 'y' };
             Console.WriteLine("Give me your name: ");
             name = Console.ReadLine();
+            //if statement to check the length of name
             for (int i = 0; i < name.Length; i++)
             {
                 if (vowels.Contains(name[i]))
